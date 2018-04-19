@@ -5,7 +5,7 @@ module.exports = {
   siteTitle: 'Charlotte SEO Institute', // Site title.
   siteTitleAlt: 'Learn SEO For Free And Grow Your Charlotte Business', // Alternative site title for SEO.
   siteLogo: '/src/img/Charlotte-SEO-Institute-min.png', // Logo used for SEO and manifest.
-  siteUrl: 'https://gatsby-starter-business.netlify.com', // Domain of your website without pathPrefix.
+  siteUrl: 'https://sad-lamport-8f74b6.netlify.com', // Domain of your website without pathPrefix.
   pathPrefix: '/', // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-business/.
   siteDescription: 'Leverage Gatsby Business Starter for your Business.', // Website description used for RSS feeds/meta description tag.
   siteRss: '/rss.xml',
