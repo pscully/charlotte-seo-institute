@@ -3,14 +3,13 @@
  */
 import React from 'react'
 import Link from 'gatsby-link'
+import logo from '../../img/logo.png';
 
 const NavBar = () => {
   return (
     <nav className='navbar is-fixed-top' aria-label='main navigation'>
       <div className='navbar-brand'>
-        <Link to='/' className='navbar-item'>
-                    Gatsby Starter Business
-        </Link>
+          <img src={logo} />
         <button className='button navbar-burger' data-target='navMenu'>
           <span />
           <span />
