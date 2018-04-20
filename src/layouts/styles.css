@@ -1,0 +1,15 @@
+#homepagebanner {
+  background: linear-gradient(rgba(255,0,0,0.5), rgba(255,0,0,0.5)), url('../../static/img/learn-SEO-charlotte.jpg')  no-repeat center; 
+}
+
+#homepagebanner h1 {
+  color: white;
+}
+
+p {
+  font-size: 16pt;
+}
+
+hr {
+  max-width: 400px; 
+}

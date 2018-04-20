@@ -7,10 +7,10 @@ meta_description: >-
   ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
   venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
   consectetur purus sit amet fermentum.
-heading: Ready to take control of your digital marketing?
+heading: Welcome To The Institute
 description: >-
-  Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
-  adipisci velit...
+  Learn how to build, optimize, and promote your Charlotte busines online
+  100% free.
 offerings:
   blurbs:
     - image: /img/coffee.png

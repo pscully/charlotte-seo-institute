@@ -21,15 +21,17 @@ export const HomePageTemplate = ({
       <title>{meta_title}</title>
       <meta name='description' content={meta_description} />
     </Helmet>
-    <section className='hero is-primary is-bold'>
+    <section className='hero is-large' id='homepagebanner'>
       <div className='hero-body'>
         <div className='container'>
           <div className='columns'>
             <div className='column is-10 is-offset-1'>
               <div className='section'>
-                <h1 className='title'>
-                  {title}
+                <h1 className='title is-size-1'>
+                  Learn SEO For Free, <br/>
+                  and Power Up Your Digital Marketing
                 </h1>
+                <hr/>
               </div>
             </div>
           </div>
@@ -48,8 +50,8 @@ export const HomePageTemplate = ({
                     {heading}
                   </h3>
                   <p>{description}</p>
+                  <hr/>
                 </div>
-                <Offerings gridItems={offerings.blurbs} />
                 <h2 className='has-text-weight-semibold is-size-2'>Testimonials</h2>
                 <Testimonials testimonials={testimonials} />
               </div>
