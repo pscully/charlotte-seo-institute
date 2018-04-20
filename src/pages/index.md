@@ -1,7 +1,7 @@
 ---
 templateKey: 'home-page'
 title: Charlotte SEO Institute
-meta_title: Home | Gatsby Starter Business
+meta_title: Charlotte SEO Institute - Learn SEO 100% Free
 meta_description: >-
   Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
   ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
