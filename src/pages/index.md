@@ -10,7 +10,12 @@ meta_description: >-
 heading: Welcome To The Institute
 description: >-
   Learn how to build, optimize, and promote your Charlotte busines online
-  100% free.
+  100% free. Optimizing your business website can be one of the most beneficial things
+  you can do for your digital marketing. But what does that mean? Why do you need to go
+  through several "experts" before getting a straight answer? 
+
+  The good news is you don't. With a small dedication of time, and an open mind for technology and 
+  critical thinking, you can easily learn the basics and foundation for growing your business online.
 offerings:
   blurbs:
     - image: /img/coffee.png

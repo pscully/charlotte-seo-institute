@@ -7,13 +7,13 @@ import PropTypes from 'prop-types'
 const Pricing = ({ data }) => (
   <div className='columns'>
     {data.map(price => (
-      <div key={price.plan} className='column' style={{border: '1px solid #eaecee'}}>
+      <div key={price.plan} className='column' style={{border: '2px solid #eaecee'}}>
         <section className='section'>
           <h4 className='has-text-centered has-text-weight-semibold'>
             {price.plan}
           </h4>
           <h2 className='is-size-1 has-text-weight-bold has-text-primary has-text-centered'>
-                        ${price.price}
+                  {checkPrice(price.price)}      
           </h2>
           <p className='has-text-weight-semibold'>{price.description}</p>
           <ul>
@@ -38,6 +38,15 @@ Pricing.propTypes = {
       items: PropTypes.array,
     })
   ),
+}
+
+function checkPrice (price) {
+  if (price) {
+    var thePrice = price;
+    return thePrice;
+  } else {
+    return 'Coming soon!';
+  }
 }
 
 export default Pricing
