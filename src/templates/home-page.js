@@ -21,7 +21,7 @@ export const HomePageTemplate = ({
       <title>{meta_title}</title>
       <meta name='description' content={meta_description} />
     </Helmet>
-    <section className='hero is-large' id='homepagebanner'>
+    <section className='hero is-large' id='homepage-banner'>
       <div className='hero-body'>
         <div className='container'>
           <div className='columns'>
@@ -32,6 +32,8 @@ export const HomePageTemplate = ({
                   and Power Up Your Digital Marketing
                 </h1>
                 <hr/>
+                <a className="button is-rounded is-large">Get Started For Free</a>
+                <p><em>or </em><a href="/about" id="homepage-banner-link">Learn More About The Institute</a></p>
               </div>
             </div>
           </div>
@@ -51,8 +53,16 @@ export const HomePageTemplate = ({
                   </h3>
                   <p>{description}</p>
                   <hr/>
+                  <div className="columns">
+                    <div className="column">
+                      <a className="button is-rounded is-large is-hoverable">Get Started For Free</a> <br />
+                      <em id="homepage-cta-extra">No sign up required. Just learn. No catch!</em>
+                    </div>
+                    <div className="column" id="menu-cta"></div>
+                    <hr />
+                  </div>
                 </div>
-                <h2 className='has-text-weight-semibold is-size-2'>Testimonials</h2>
+                <h2 className='has-text-weight-semibold is-size-2'>Reviews of The SEO Course</h2>
                 <Testimonials testimonials={testimonials} />
               </div>
             </div>
@@ -62,6 +72,39 @@ export const HomePageTemplate = ({
     </section>
   </div>
 )
+
+function makeMenuCTA() {
+  const menuItems = [
+      'Learn More About The Institute',
+      'Meet Our Team of Experts',
+      'Join Our Free Slack Community'
+  ];
+
+  const menuLinks = [
+      '/about-us',
+      '/about-us#faculty',
+      '/contact'
+  ]
+
+  var el = document.getElementById('menu-cta');
+  var elNav = document.createElement('ul');
+  var menuLength = menuItems.length;
+
+  el.appendChild(elNav);
+
+  for (let i = 0; i < menuLength; i++) {
+      var elNavItem = document.createElement('li');
+      var elNavItemLink = document.createElement('a');
+
+      elNav.appendChild(elNavItem);
+      elNavItemLink.setAttribute("class", "link is-info");
+      elNavItemLink.setAttribute("href", menuLinks[i]);
+      elNavItemLink.innerHTML = menuItems[i];
+      elNavItem.appendChild(elNavItemLink);
+  };
+}
+
+makeMenuCTA();
 
 HomePageTemplate.propTypes = {
   title: PropTypes.string,

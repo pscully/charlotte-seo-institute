@@ -10,10 +10,33 @@ hr {
 
 /* Homepage Styles */
 
-#homepagebanner {
+#homepage-banner {
   background: linear-gradient(rgba(255,0,0,0.5), rgba(255,0,0,0.5)), url('../../static/img/learn-SEO-charlotte.jpg')  no-repeat center; 
 }
 
-#homepagebanner h1 {
+#homepage-banner h1 {
   color: white;
+}
+
+#homepage-banner em {
+  color: white;
+}
+
+#homepage-banner-link {
+  text-decoration: underline;
+  color: white;
+  font-size: 14pt;
+  padding: 10px 10px 20px 0px;
+}
+
+#homepage-cta {
+  margin-top: 10px;
+}
+
+#homepage-cta-link {
+  font-size: 16pt;
+}
+
+#homepage-cta-extra {
+  padding: 20px 0px 0px 10px;
 }
